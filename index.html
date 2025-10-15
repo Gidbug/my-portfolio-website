@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Gideon Oyerinde - Frontend Developer Portfolio. Specializing in React, JavaScript, HTML, and CSS." />
+  <meta name="keywords" content="frontend developer, web developer, React, JavaScript, portfolio" />
+  <meta name="author" content="Gideon Oyerinde" />
+
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  
+  <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
+
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+
+ 
+  <title>Gideon Oyerinde | Frontend Developer Portfolio</title>
+</head>
+<body>
+  <header class="l-header">
+    <nav class="nav bd-grid">
+      <div>
+        <a href="#" class="nav__logo">Gideon Oyerinde</a>
+      </div>
+
+      <div class="nav__menu" id="nav-menu" aria-hidden="false">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+          <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+          <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+      </div>
+
+      <button class="nav__toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <i class='bx bx-menu'></i>
+      </button>
+    </nav>
+  </header>
+
+  <main class="l-main">
+    <section class="home section" id="home" aria-label="Home">
+      <div class="bd-grid home__inner">
+        <div class="home__data">
+          <h1 class="home__title">Hey,<br>I am <span class="home__title-color">Gideon Oyerinde</span><br>Frontend Developer</h1>
+          <p class="home__description">Crafting beautiful, responsive web experiences with modern technologies.</p>
+          <a href="#contact" class="button">Get In Touch</a>
+          <div class="home__social">
+            <a href="https://www.linkedin.com/in/gideon-oyerinde" target="_blank" rel="noopener noreferrer" class="home__social-icon" aria-label="LinkedIn">
+              <i class='bx bxl-linkedin'></i>
+            </a>
+            <a href="https://www.behance.net/gideonoyerinde" target="_blank" rel="noopener noreferrer" class="home__social-icon" aria-label="Behance">
+              <i class='bx bxl-behance'></i>
+            </a>
+            <a href="https://github.com/gidbug" target="_blank" rel="noopener noreferrer" class="home__social-icon" aria-label="GitHub">
+              <i class='bx bxl-github'></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="home__img" aria-hidden="true">
+    
+          <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg">
+            <mask id="mask0" mask-type="alpha">
+              <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+            </mask>
+            <g mask="url(#mask0)">
+              <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" fill="currentColor" />
+              <image class="home__blob-img" x="50" y="60" href="assets/img/perfil.jpg" preserveAspectRatio="xMidYMid slice"/>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section" id="about" aria-label="About">
+      <h2 class="section-title">About Me</h2>
+
+      <div class="about__container bd-grid">
+        <div class="about__img">
+          <img src="assets/img/about.jpg" alt="Gideon Oyerinde">
+        </div>
+
+        <div class="about__content">
+          <h3 class="about__subtitle">I am Gideon Oyerinde</h3>
+          <p class="about__text">I am a passionate frontend developer based in Ibadan, Nigeria, building responsive and user-friendly web experiences using React, JavaScript, HTML, and CSS.</p>
+          <p class="about__text">I combine clean code with thoughtful design to create performant sites that adapt across devices. I am always learning and enjoy tackling new challenges.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills section" id="skills" aria-label="Skills">
+      <h2 class="section-title">Technical Skills</h2>
+
+      <div class="skills__container bd-grid">
+        <div class="skills__content">
+          <h3 class="skills__subtitle">Professional Expertise</h3>
+          <p class="skills__text">Specialized in modern web development with a strong focus on creating responsive, user-centric applications.</p>
+
+          <div class="skills__grid">
+            
+            <div class="skill__card"><i class='bx bxl-react skill__card-icon'></i><h4 class="skill__card-title">React.js</h4><p class="skill__card-text">Component-based architecture, Hooks, State Management</p></div>
+            <div class="skill__card"><i class='bx bxl-javascript skill__card-icon'></i><h4 class="skill__card-title">JavaScript</h4><p class="skill__card-text">ES6+, Async/Await, DOM Manipulation</p></div>
+            <div class="skill__card"><i class='bx bx-paint skill__card-icon'></i><h4 class="skill__card-title">UI/UX Design</h4><p class="skill__card-text">Wireframing, Prototyping, User Research</p></div>
+            <div class="skill__card"><i class='bx bxl-html5 skill__card-icon'></i><h4 class="skill__card-title">HTML5 & CSS3</h4><p class="skill__card-text">Semantic markup, Flexbox, Grid</p></div>
+            <div class="skill__card"><i class='bx bxl-css3 skill__card-icon'></i><h4 class="skill__card-title">Tailwind CSS</h4><p class="skill__card-text">Utility-first styling</p></div>
+            <div class="skill__card"><i class='bx bxl-nodejs skill__card-icon'></i><h4 class="skill__card-title">Node.js</h4><p class="skill__card-text">Express APIs & backend development</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="work section" id="work" aria-label="Work">
+      <h2 class="section-title">Featured Projects</h2>
+
+      <div class="projects__container bd-grid">
+        <article class="project">
+          <div class="project__header">
+            <i class='bx bx-restaurant project__icon'></i>
+            <h3 class="project__title">MENUSWIFT - HNG Ecommerce App</h3>
+          </div>
+          <p class="project__description">Developed MENUSWIFT during the HNG Internship — a modern ecommerce app with menu management and checkout flows.</p>
+          <div class="project__tech"><span class="tech__badge">React</span><span class="tech__badge">JS</span><span class="tech__badge">CSS</span></div>
+          <a href="https://github.com/Gidbug" target="_blank" rel="noopener noreferrer" class="project__link"><i class='bx bxl-github'></i> View on GitHub</a>
+        </article>
+
+        <article class="project">
+          <div class="project__header">
+            <i class='bx bx-shopping-bag project__icon'></i>
+            <h3 class="project__title">Ecommerce Website Redesign</h3>
+          </div>
+          <p class="project__description">Redesign focused on UX improvements and responsive checkout experiences.</p>
+          <div class="project__tech"><span class="tech__badge">HTML5</span><span class="tech__badge">CSS3</span></div>
+        </article>
+
+        <article class="project">
+          <div class="project__header">
+            <i class='bx bx-cloud project__icon'></i>
+            <h3 class="project__title">Python Weather App Redesign</h3>
+          </div>
+          <p class="project__description">Converted a CLI weather app into a GUI with Tkinter and API integrations.</p>
+        </article>
+      </div>
+
+      <h3 class="section-title" style="margin-top: 3rem;">Portfolio Gallery</h3>
+      <div class="work__container bd-grid">
+        <a href="#" class="work__img"><img src="assets/img/work1.jpg" alt="Web project 1"></a>
+        <a href="#" class="work__img"><img src="assets/img/work2.jpg" alt="Web project 2"></a>
+        <a href="#" class="work__img"><img src="assets/img/work3.jpg" alt="Web project 3"></a>
+        <a href="#" class="work__img"><img src="assets/img/work4.jpg" alt="Web project 4"></a>
+        <a href="#" class="work__img"><img src="assets/img/work5.jpg" alt="Web project 5"></a>
+        <a href="#" class="work__img"><img src="assets/img/work6.jpg" alt="Web project 6"></a>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact" aria-label="Contact">
+      <h2 class="section-title">Get In Touch</h2>
+      <form id="contact-form"></form>
+      <div class="contact__container bd-grid">
+       <form id="contact__info"  method="POST" class="contact__form">
+        
+           <input type="hidden" name="access_key" value="6b0c3b5c-8a04-408d-99cd-362a0deea4d0">
+          <input type="text" name="name" placeholder="Your Name" class="contact__input" required>
+          <input type="email" name="email" placeholder="Your Email" class="contact__input" required>
+          <textarea name="message" rows="6" placeholder="Your Message" class="contact__input" required></textarea>
+          <input type="submit" value="Send Message" class="contact__button">
+        </form>
+
+
+       
+        <div class="contact__info">
+          <h3>Contact Me Directly</h3>
+          <p><strong>Name:</strong> Gideon Oyerinde</p>
+          <p><strong>Email:</strong> <a href="mailto:oyerindegideon11@gmail.com">oyerindegideon11@gmail.com</a></p>
+          <p><strong>Phone:</strong> <a href="tel:+2348034797316">+234 803 479 7316</a></p>
+          <p><strong>Location:</strong> Ibadan, Oyo State, Nigeria</p>
+
+          <div class="contact__social" style="margin: 0; display: flex; flex-direction: row;">
+            <a href="https://www.linkedin.com/in/gideon-oyerinde" target="_blank" rel="noopener noreferrer" style="display: flex; flex-wrap: wrap; font-size: 36px; margin: 40px;"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/Gidbug" target="_blank" rel="noopener noreferrer"><i class='bx bxl-github' style="display: flex; flex-wrap: wrap; font-size: 36px; margin: 40px;"></i></a>
+            <a href="https://www.behance.net/gideonoyerinde" target="_blank" rel="noopener noreferrer" style="display: flex; flex-wrap: wrap; font-size: 36px; margin: 40px;"><i class='bx bxl-behance'></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__title">Gideon Oyerinde</p>
+    <div class="footer__social">
+      <a href="https://www.facebook.com/@gideon.oyerinde.33" target="_blank" rel="noopener noreferrer" class="footer__icon" aria-label="Facebook" style="font-size: 36px; margin: 40px;"><i class='bx bxl-facebook'></i></a>
+      <a href="https://www.instagram.com/https://oyerinde_gideon" target="_blank" rel="noopener noreferrer" class="footer__icon" aria-label="Instagram"  style="font-size: 36px; margin: 40px;"><i class='bx bxl-instagram'></i></a>
+      <a href="https://twitter.com/@GideonOye100" target="_blank" rel="noopener noreferrer" class="footer__icon" aria-label="Twitter"  style="font-size: 36px; margin: 40px;" ><i class='bx bxl-twitter'></i></a>
+    </div>
+    <p class="footer__copy">&#169; 2025 Gbosscode. All rights reserved</p>
+  </footer>
+
+  
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <script type="module" src="assets/js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script>
+    (function(){
+      // initialize with your user/public key
+      emailjs.init('aUca2V8ECplHHW69K'); // replace with your public key
+    })();
+
+ 
+  </script>
+</body>
+</html>
