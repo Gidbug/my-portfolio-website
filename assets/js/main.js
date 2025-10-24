@@ -13,9 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   console.log('🚀 Portfolio Initialized!');
 });
-
-
-    
+  
 document.addEventListener('DOMContentLoaded', () => {
   const form = document.getElementById('contact__info');
   const serviceID = 'service_877jil2';

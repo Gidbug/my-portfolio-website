@@ -22,7 +22,6 @@
   --transition: 300ms cubic-bezier(.2,.8,.2,1);
 }
 
-
 *,:before,:after{ box-sizing:border-box; }
 html{ font-size: var(--fs-base); scroll-behavior:smooth; }
 body{
