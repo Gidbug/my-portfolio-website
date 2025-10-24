@@ -1,14 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
-
-
 :root{
-  --bg: #0b0f14;
-  --card: #0f1720;
+  --bg: #04060a;
+  --card: #;
   --muted: #9aa6b2;
   --accent: #2bb0ff;
-  --accent-2: #0ea5a4;
+  --accent-2: #3ab1b1;
   --white: #ffffff;
-  --tea-green: #234214;
+  --tea-green: #74c84b;
   --glass: rgba(255,255,255,0.04);
 
   --ff: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, "Helvetica Neue", Arial;
@@ -28,13 +26,13 @@ body{
   margin:0;
   font-family:var(--ff);
   color:var(--white);
-  background: linear-gradient(180deg, #04060a 0%, rgba(10,12,16,1) 100%);
+  background-color: #04060a; /* solid fallback helps accessibility scanners */
+  background: linear-gradient(180deg, #04060a 0%, rgba(4,6,10) 100%);
   -webkit-font-smoothing:antialiased;
   -moz-osx-font-smoothing:grayscale;
   overflow-x:hidden;
   line-height:1.5;
 }
-
 
 .bd-grid{
   max-width:var(--container-max);
